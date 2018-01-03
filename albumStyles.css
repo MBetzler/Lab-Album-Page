@@ -11,10 +11,21 @@
 .trackTable caption { 
     padding-bottom:.625em;font-weight: bold; 
 }
+.trackTable td {
+    font-style: italic;
+    background: rgba(245, 222, 179, 0.774);
+}
 li {
     font-style: italic;
 }
 #albumImage {
     height: 18.75em;
     background: url("images/FleetwoodMac-Rumours.jpg") center/18.75em no-repeat;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background: wheat;
 }
