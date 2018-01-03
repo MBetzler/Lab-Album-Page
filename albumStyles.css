@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700');
 .trackTable { 
     border-collapse:collapse;width: 100%; 
 }
 .trackTable td, .trackTable th { 
-    padding:5px;border:1px solid black;text-align: center;
+    padding:.15625em;border:1px solid black;text-align: center;
 }
 .trackTable th { 
     background-color:rgba(128, 128, 128, 0.534); border-style: solid; border-width: thin thin medium;
 }
 .trackTable caption { 
-    padding-bottom:10px;font-weight: bold; 
+    padding-bottom:.625em;font-weight: bold; 
+}
+li {
+    font-style: italic;
+}
+#albumImage {
+    height: 18.75em;
+    background: url("images/FleetwoodMac-Rumours.jpg") center/18.75em no-repeat;
 }
