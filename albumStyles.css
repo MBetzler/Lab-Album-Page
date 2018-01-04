@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700');
 .trackTable { 
-    border-collapse:collapse;width: 100%; 
+    border-collapse:collapse;
+    width: 33em;
+    margin: 0 auto;
 }
 .trackTable td, .trackTable th { 
-    padding:.15625em;border:1px solid black;text-align: center;
+    padding:.15625em;
+    border:1px solid black;
+    text-align: center;
 }
 .trackTable th { 
-    background-color:rgba(128, 128, 128, 0.534); border-style: solid; border-width: thin thin medium;
+    background-color:rgba(128, 128, 128, 0.534);
+    border-style: solid;
+    border-width: thin thin medium;
 }
 .trackTable caption { 
-    padding-bottom:.625em;font-weight: bold; 
+    margin: 1em 0 .625em 0;
+    font-weight: bold; 
 }
 .trackTable td {
     font-style: italic;
@@ -28,4 +35,8 @@ a {
 a:hover {
     text-decoration: underline;
     background: wheat;
+}
+ul {
+    width: 25em;
+    margin: 0 auto;
 }
